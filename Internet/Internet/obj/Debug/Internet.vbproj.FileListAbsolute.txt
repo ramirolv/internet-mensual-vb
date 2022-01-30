@@ -1,1 +1,15 @@
 e:\filesuser\documents\visual studio 2013\Projects\Internet\Internet\bin\Debug\Internet.exe.config
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\bin\Debug\Internet.exe.config
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\bin\Debug\Internet.exe
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\bin\Debug\Internet.pdb
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\bin\Debug\Internet.xml
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.Resources.resources
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.vbproj.GenerateResource.Cache
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.exe
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.xml
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.pdb
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\bin\Debug\data.accdb
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.FormMain.resources
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.Clientes.resources
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.vbprojResolveAssemblyReference.cache
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.NewClient.resources
