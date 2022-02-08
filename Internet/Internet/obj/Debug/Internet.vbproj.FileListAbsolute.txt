@@ -14,3 +14,4 @@ E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.NewClient.resources
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.PanelServicios.resources
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.PanelClientes.resources
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.panelDashboard.resources

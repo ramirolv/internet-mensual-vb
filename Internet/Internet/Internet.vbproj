@@ -79,6 +79,12 @@
       <DependentUpon>FormMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\panelDashboard.Designer.vb">
+      <DependentUpon>panelDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\panelDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\PanelServicios.Designer.vb">
       <DependentUpon>PanelServicios.vb</DependentUpon>
     </Compile>
@@ -116,6 +122,9 @@
   <ItemGroup>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\panelDashboard.resx">
+      <DependentUpon>panelDashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PanelServicios.resx">
       <DependentUpon>PanelServicios.vb</DependentUpon>

@@ -29,4 +29,9 @@
         Dim cl As New PanelServicios
         ConvertFormToChild(cl)
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim cl As New panelDashboard
+        ConvertFormToChild(cl)
+    End Sub
 End Class
