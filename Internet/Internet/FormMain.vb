@@ -1,13 +1,11 @@
 ﻿Public Class FormMain
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: esta línea de código carga datos en la tabla 'DataDataSet.Clientes' Puede moverla o quitarla según sea necesario.
-        Me.ClientesTableAdapter.Fill(Me.DataDataSet.Clientes)
 
     End Sub
 
     Private Sub BtnCliente_Click(sender As Object, e As EventArgs) Handles BtnCliente.Click
-        Dim cl As New Clientes
+        Dim cl As New PanelClientes
         ConvertFormToChild(cl)
     End Sub
 
@@ -25,5 +23,10 @@
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
+    End Sub
+
+    Private Sub BtnServicios_Click(sender As Object, e As EventArgs) Handles BtnServicios.Click
+        Dim cl As New PanelServicios
+        ConvertFormToChild(cl)
     End Sub
 End Class

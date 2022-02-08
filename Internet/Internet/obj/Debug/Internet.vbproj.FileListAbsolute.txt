@@ -10,6 +10,7 @@ E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.pdb
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\bin\Debug\data.accdb
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.FormMain.resources
-E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.Clientes.resources
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.vbprojResolveAssemblyReference.cache
 E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.NewClient.resources
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.PanelServicios.resources
+E:\FilesUser\Documents\Visual Studio 2013\Projects\internet-mensual-vb\Internet\Internet\obj\Debug\Internet.PanelClientes.resources

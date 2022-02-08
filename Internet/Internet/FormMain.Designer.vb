@@ -22,27 +22,17 @@ Partial Class FormMain
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Me.PanelSideMenu = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.BtnServicios = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.BtnCliente = New System.Windows.Forms.Button()
         Me.BtnPago = New System.Windows.Forms.Button()
         Me.PanelCotainer = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.DataDataSet = New Internet.dataDataSet()
-        Me.DataDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.ClientesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.ClientesTableAdapter = New Internet.dataDataSetTableAdapters.ClientesTableAdapter()
-        Me.ClientesBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.PanelSideMenu.SuspendLayout()
         Me.PanelCotainer.SuspendLayout()
-        CType(Me.DataDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ClientesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ClientesBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelSideMenu
@@ -50,7 +40,7 @@ Partial Class FormMain
         Me.PanelSideMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(186, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.PanelSideMenu.Controls.Add(Me.Panel1)
         Me.PanelSideMenu.Controls.Add(Me.Button5)
-        Me.PanelSideMenu.Controls.Add(Me.Button4)
+        Me.PanelSideMenu.Controls.Add(Me.BtnServicios)
         Me.PanelSideMenu.Controls.Add(Me.Button3)
         Me.PanelSideMenu.Controls.Add(Me.BtnCliente)
         Me.PanelSideMenu.Controls.Add(Me.BtnPago)
@@ -77,18 +67,18 @@ Partial Class FormMain
         Me.Button5.Text = "Button5"
         Me.Button5.UseVisualStyleBackColor = True
         '
-        'Button4
+        'BtnServicios
         '
-        Me.Button4.Location = New System.Drawing.Point(3, 225)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(162, 33)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.BtnServicios.Location = New System.Drawing.Point(3, 225)
+        Me.BtnServicios.Name = "BtnServicios"
+        Me.BtnServicios.Size = New System.Drawing.Size(162, 33)
+        Me.BtnServicios.TabIndex = 3
+        Me.BtnServicios.Text = "Servicios"
+        Me.BtnServicios.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(6, 108)
+        Me.Button3.Location = New System.Drawing.Point(3, 108)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(162, 33)
         Me.Button3.TabIndex = 2
@@ -134,30 +124,6 @@ Partial Class FormMain
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "System"
         '
-        'DataDataSet
-        '
-        Me.DataDataSet.DataSetName = "dataDataSet"
-        Me.DataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'DataDataSetBindingSource
-        '
-        Me.DataDataSetBindingSource.DataSource = Me.DataDataSet
-        Me.DataDataSetBindingSource.Position = 0
-        '
-        'ClientesBindingSource
-        '
-        Me.ClientesBindingSource.DataMember = "Clientes"
-        Me.ClientesBindingSource.DataSource = Me.DataDataSetBindingSource
-        '
-        'ClientesTableAdapter
-        '
-        Me.ClientesTableAdapter.ClearBeforeFill = True
-        '
-        'ClientesBindingSource1
-        '
-        Me.ClientesBindingSource1.DataMember = "Clientes"
-        Me.ClientesBindingSource1.DataSource = Me.DataDataSetBindingSource
-        '
         'FormMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -171,10 +137,6 @@ Partial Class FormMain
         Me.PanelSideMenu.ResumeLayout(False)
         Me.PanelCotainer.ResumeLayout(False)
         Me.PanelCotainer.PerformLayout()
-        CType(Me.DataDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ClientesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ClientesBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -182,14 +144,9 @@ Partial Class FormMain
     Friend WithEvents PanelCotainer As System.Windows.Forms.Panel
     Friend WithEvents BtnPago As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents BtnServicios As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents BtnCliente As System.Windows.Forms.Button
-    Friend WithEvents DataDataSetBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents DataDataSet As Internet.dataDataSet
-    Friend WithEvents ClientesBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents ClientesTableAdapter As Internet.dataDataSetTableAdapters.ClientesTableAdapter
-    Friend WithEvents ClientesBindingSource1 As System.Windows.Forms.BindingSource
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
 

@@ -1,9 +1,9 @@
-﻿Public Class Clientes
-
+﻿Public Class PanelServicios
+    Dim conexionDB As ClassConecctionDB
 
     Private Sub Clientes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: esta línea de código carga datos en la tabla 'DataDataSet.Clientes' Puede moverla o quitarla según sea necesario.
-        Me.ClientesTableAdapter.Fill(Me.DataDataSet.Clientes)
+        conexionDB = New ClassConecctionDB
+        DataGridViewClients.DataSource = conexionDB.obtenerTabla("Servicios")
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnNewReg.Click
@@ -17,7 +17,11 @@
         If DataGridViewClients.SelectedRows.Count > 0 Then
             NumeroDeFilaSeleccionada = DataGridViewClients.CurrentRow.Index
         Else
-            MessageBox.Show("Selecciona una fila")
+            MessageBox.Show("Seleccione una fila")
         End If
+    End Sub
+
+    Private Sub BtnUpdate_Click(sender As Object, e As EventArgs) Handles BtnUpdate.Click
+
     End Sub
 End Class

@@ -71,11 +71,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dataDataSet.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>dataDataSet.xsd</DependentUpon>
-    </Compile>
+    <Compile Include="Clases\ClassConecctionDB.vb" />
     <Compile Include="FormMain.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -83,10 +79,16 @@
       <DependentUpon>FormMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Clientes.Designer.vb">
-      <DependentUpon>Clientes.vb</DependentUpon>
+    <Compile Include="Forms\PanelServicios.Designer.vb">
+      <DependentUpon>PanelServicios.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Clientes.vb">
+    <Compile Include="Forms\PanelServicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PanelClientes.Designer.vb">
+      <DependentUpon>PanelClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PanelClientes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\NewClient.Designer.vb">
@@ -115,8 +117,11 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Clientes.resx">
-      <DependentUpon>Clientes.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\PanelServicios.resx">
+      <DependentUpon>PanelServicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PanelClientes.resx">
+      <DependentUpon>PanelClientes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\NewClient.resx">
       <DependentUpon>NewClient.vb</DependentUpon>
@@ -129,17 +134,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="dataDataSet.xsc">
-      <DependentUpon>dataDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="dataDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>dataDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="dataDataSet.xss">
-      <DependentUpon>dataDataSet.xsd</DependentUpon>
-    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

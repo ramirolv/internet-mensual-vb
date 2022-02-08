@@ -1,9 +1,11 @@
 ﻿Public Class NewClient
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If (TextBoxDpi.Text = "" Or TextBoxNombre.Text = "" Or TextBoxTelefono.Text = "") Then
+        If (TextBoxDpi.Text = "" Or TextBoxNombre.Text = "" Or TextBoxTelefono.Text = "" Or TextBoxDireccion.Text = "") Then
             MsgBox("Datos incompletos")
         Else
+            'FormMain.DataDataSet.Clientes.AddClientesRow(TextBoxDpi.Text, TextBoxNombre.Text, TextBoxTelefono.Text, TextBoxDireccion.Text)
+            'FormMain.DataDataSet.Clientes.AcceptChanges()
             Me.Close()
         End If
     End Sub
